@@ -28,7 +28,7 @@ if [ "$sync" = true ]; then
 	echo "========================"
 	echo "Cloning local manifest.."
 	echo "========================"
-	git clone https://github.com/liwhy1/local_manifests -b evox-11 .repo/local_manifests --depth=1
+	git clone https://github.com/Finite-Code/local_manifests -b evox-11 .repo/local_manifests --depth=1
 
 	# Clone signing keys
 	if [ "$sign" = true ]; then
