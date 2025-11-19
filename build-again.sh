@@ -74,7 +74,8 @@ echo "Starting build.."
 echo "================"
 cd $cwd
 breakfast MT6893 userdebug
-make installclean
+# Prevent a clean build to speed up things :)
+# make installclean
 m evolution -j12
 
 #cd $cwd
