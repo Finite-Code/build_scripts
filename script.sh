@@ -22,7 +22,7 @@ if [ "$sync" = true ]; then
 	echo "==========================="
 	echo "Initializing ROM manifest.."
 	echo "==========================="
-	repo init -u https://github.com/Evolution-X/manifest -b bka-q1 --git-lfs
+	repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 
 	# Clone local manifest
 	echo "========================"
