@@ -75,7 +75,7 @@ echo "================"
 cd $cwd
 breakfast MT6893 userdebug
 make installclean
-m evolution
+m evolution -j12
 
 #cd $cwd
 #echo "========================="
