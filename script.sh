@@ -90,9 +90,7 @@ echo "================"
 echo "Starting build.."
 echo "================"
 cd $cwd
-breakfast MT6893 eng
-make installclean
-mka bacon
+brunch custom_MT6893-bp1a-eng
 
 #cd $cwd
 #echo "========================="
